@@ -2,7 +2,7 @@
 
 A powerful AI-assisted educational tool that helps students and educators with advanced learning and teaching capabilities.
 
-![GradGPT Pro](https://via.placeholder.com/800x400?text=GradGPT+Pro+Screenshot)
+![GradGPT Pro](https://github.com/nanaagyei/gradgpt-pro/blob/main/public/images/gradgpt%20screenshot.png)
 
 ## Overview
 
