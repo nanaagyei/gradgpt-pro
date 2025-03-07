@@ -20,7 +20,7 @@ export default function DocumentsPage() {
   const [documentFeedback, setDocumentFeedback] = useState<DocumentFeedback | null>(null);
   
   // Mock document analysis function
-  const analyzeDocument = (documentType: string) => {
+  const analyzeDocument = () => {
     setAnalyzing(true);
     
     // Simulate API call with timeout
@@ -78,7 +78,7 @@ export default function DocumentsPage() {
                     <Button 
                       onClick={() => {
                         const uploadInput = document.getElementById('statement-upload');
-                        uploadInput && uploadInput.click();
+                        if (uploadInput) uploadInput.click();
                       }}
                       className="mb-4"
                     >
@@ -127,7 +127,7 @@ export default function DocumentsPage() {
                       variant="outline" 
                       onClick={() => {
                         const reuploadInput = document.getElementById('statement-reupload');
-                        reuploadInput && reuploadInput.click();
+                        if (reuploadInput) reuploadInput.click();
                       }}
                     >
                       Upload Revised Version
@@ -169,7 +169,7 @@ export default function DocumentsPage() {
                 <div className="flex justify-end">
                   <Button 
                     disabled={analyzing} 
-                    onClick={() => analyzeDocument("statement")}
+                    onClick={() => analyzeDocument()}
                   >
                     {analyzing ? "Analyzing..." : "Analyze Document"}
                   </Button>
@@ -199,7 +199,7 @@ export default function DocumentsPage() {
                   <Button 
                     onClick={() => {
                       const cvInput = document.getElementById('cv-upload');
-                      cvInput && cvInput.click();
+                      if (cvInput) cvInput.click();
                     }}
                     className="mb-4"
                   >
@@ -232,7 +232,7 @@ export default function DocumentsPage() {
                   <Button 
                     onClick={() => {
                       const letterInput = document.getElementById('letter-upload');
-                      letterInput && letterInput.click();
+                      if (letterInput) letterInput.click();
                     }}
                     className="mb-4"
                   >

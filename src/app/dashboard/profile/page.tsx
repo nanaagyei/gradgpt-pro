@@ -91,9 +91,9 @@ export default function ProfilePage() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="high-school">High School</SelectItem>
-                      <SelectItem value="associates">Associate's Degree</SelectItem>
-                      <SelectItem value="bachelors">Bachelor's Degree</SelectItem>
-                      <SelectItem value="masters">Master's Degree</SelectItem>
+                      <SelectItem value="associates">Associate&apos;s Degree</SelectItem>
+                      <SelectItem value="bachelors">Bachelor&apos;s Degree</SelectItem>
+                      <SelectItem value="masters">Master&apos;s Degree</SelectItem>
                       <SelectItem value="phd">Ph.D.</SelectItem>
                     </SelectContent>
                   </Select>
@@ -164,7 +164,7 @@ export default function ProfilePage() {
                     <SelectValue placeholder="Select degree" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="masters">Master's Degree</SelectItem>
+                    <SelectItem value="masters">Master&apos;s Degree</SelectItem>
                     <SelectItem value="phd">Ph.D.</SelectItem>
                     <SelectItem value="mba">MBA</SelectItem>
                     <SelectItem value="jd">J.D. (Law)</SelectItem>

@@ -10,7 +10,7 @@ export default function AboutPage() {
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold">Our Mission</h2>
           <p className="text-lg text-gray-700">
-            At GradGPT.pro, we're dedicated to democratizing access to high-quality graduate school application guidance. 
+            At GradGPT.pro, we&apos;re dedicated to democratizing access to high-quality graduate school application guidance. 
             We believe that everyone deserves a fair chance at pursuing advanced education, regardless of their background 
             or access to resources.
           </p>
@@ -38,7 +38,7 @@ export default function AboutPage() {
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold">Our Commitment</h2>
           <p className="text-lg text-gray-700">
-            We're committed to continuous improvement, ethical AI use, and student success. Every feature of GradGPT.pro 
+            We&apos;re committed to continuous improvement, ethical AI use, and student success. Every feature of GradGPT.pro 
             is designed with your goals in mind, and we measure our success by your acceptance letters.
           </p>
         </section>

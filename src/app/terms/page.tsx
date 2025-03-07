@@ -26,11 +26,11 @@ export default function TermsPage() {
               Service and does not include:
             </p>
             <ul className="list-disc pl-6 mt-2 space-y-2">
-              <li>Modifying or copying our platform's materials</li>
+              <li>Modifying or copying our platform&apos;s materials</li>
               <li>Using the platform for any commercial purpose</li>
               <li>Attempting to decompile or reverse engineer any software contained on the platform</li>
               <li>Removing any copyright or other proprietary notations</li>
-              <li>Transferring the materials to another person or "mirroring" the materials on any other server</li>
+              <li>Transferring the materials to another person or &quot;mirroring&quot; the materials on any other server</li>
             </ul>
           </section>
           

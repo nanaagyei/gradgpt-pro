@@ -22,7 +22,7 @@ export default function DemoPage() {
               </p>
               <div className="bg-white p-4 rounded border">
                 <p className="text-gray-500 italic">
-                  Demo input: "I'm applying for a Master's in Computer Science with a background in software development..."
+                  Demo input: &quot;I&apos;m applying for a Master&apos;s in Computer Science with a background in software development...&quot;
                 </p>
                 <div className="mt-4 border-t pt-4">
                   <p className="font-medium">GradGPT.pro would help you:</p>

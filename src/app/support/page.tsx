@@ -8,7 +8,7 @@ export default function SupportPage() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-4 text-center">Customer Support</h1>
         <p className="text-xl text-gray-600 mb-10 text-center">
-          We're here to help you succeed with your graduate school applications
+          We&apos;re here to help you succeed with your graduate school applications
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -63,7 +63,7 @@ export default function SupportPage() {
             <div className="border-b pb-4">
               <h3 className="text-lg font-medium mb-2">How do I reset my password?</h3>
               <p className="text-gray-700">
-                You can reset your password by clicking "Forgot Password" on the login page or visiting your account settings.
+                You can reset your password by clicking &quot;Forgot Password&quot; on the login page or visiting your account settings.
               </p>
             </div>
             <div className="border-b pb-4">

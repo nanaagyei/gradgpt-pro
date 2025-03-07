@@ -124,7 +124,7 @@ export default function Home() {
                   <p className="text-sm text-gray-500">Temple University Neuroscience and Cognition, PhD</p>
                 </div>
               </div>
-              <p className="text-gray-600 italic">"GradGPT.pro helped me refine my research statement and identify programs that perfectly matched my interests. I got accepted to my top choice!"</p>
+              <p className="text-gray-600 italic">&quot;GradGPT.pro helped me refine my research statement and identify programs that perfectly matched my interests. I got accepted to my top choice!&quot;</p>
             </div>
             
             {/* Testimonial 2 */}
@@ -144,7 +144,7 @@ export default function Home() {
                   <p className="text-sm text-gray-500">Princeton University, MS</p>
                 </div>
               </div>
-              <p className="text-gray-600 italic">"The document analysis feature saved me countless hours of editing. The AI suggestions improved my essays dramatically."</p>
+              <p className="text-gray-600 italic">&quot;The document analysis feature saved me countless hours of editing. The AI suggestions improved my essays dramatically.&quot;</p>
             </div>
             
             {/* Testimonial 3 */}
@@ -164,7 +164,7 @@ export default function Home() {
                   <p className="text-sm text-gray-500">Yale Scholar, MS</p>
                 </div>
               </div>
-              <p className="text-gray-600 italic">"As a first-generation college student, I had no idea how to approach law school applications. GradGPT.pro was like having a personal admissions consultant."</p>
+              <p className="text-gray-600 italic">&quot;As a first-generation college student, I had no idea how to approach law school applications. GradGPT.pro was like having a personal admissions consultant.&quot;</p>
             </div>
           </div>
         </div>
